@@ -59,7 +59,7 @@ Another aesthetic feature of the calculator is the modification of calculator ac
 ## Credit
 Sound effects used in this calculator were provided from the royalty-free sound effect archive of [Pixabay](https://pixabay.com/)
 
-# :heavy_plus_sign: Enjoy! :white_check_mark:
+### Enjoy! :white_check_mark:
 [Back to Top](#table-of-contents)
 
 
