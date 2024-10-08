@@ -4,7 +4,7 @@
 
 ## Table of Contents
 - [About](#about)
-- [Installation](#installation)
+- [Installation / Website Demo](#installation)
 - [Calculator Operation](#calculator-operation)
 - [Commands / Features](#commands--features)
 - [Credit](#credit)
@@ -15,7 +15,11 @@ The Gabacus is the second fully-fledged web-dev project I've developed outside o
 
 <img src="readme-media/calculator-preview.png" width=300px />
 
-## Installation
+## Installation / Website Demo
+A demo of the website is streamed using Vercel, and is hosted at the following domain:
+
+[Gabacus](https://calculator-rho-bice-69.vercel.app)
+
 Given the project's nature, testing its functionality and operation is quite simple.
 1. Download the repository.
 2. Extract the repository.
