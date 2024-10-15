@@ -11,7 +11,7 @@
 
 
 ## About
-The Gabacus is the second fully-fledged web-dev project I've developed outside of an academic setting, with the functionality, design, and feature integrations being self-taught over the course of a few weeks. It combines HTML/CSS/JS into a packaged arithemtic calculator. The structure of the calculator was created in a manner reminiscent of the OOCSS (Object Oriented Cascading Style Sheets) methodology, in which element containers are defined as separate entities from their respective skins, from which more precise aesthetic and functional purposes are realized.
+The Gabacus is the second fully-fledged web-dev project I've developed outside of an academic setting, with the functionality, design, and feature integrations being self-taught over the course of a few weeks. It combines HTML/CSS/JS into a packaged arithmetic calculator. The structure of the calculator was created in a manner reminiscent of the OOCSS (Object Oriented Cascading Style Sheets) methodology, in which element containers are defined as separate entities from their respective skins, from which more precise aesthetic and functional purposes are realized.
 
 <img src="readme-media/calculator-preview.png" width=300px />
 
