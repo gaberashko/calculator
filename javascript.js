@@ -216,3 +216,43 @@ window.addEventListener("keydown", (event) => {
         
     }
 });
+
+let resultOutline = document.querySelector(".result-outline");
+let calculatorContainer = document.querySelector(".calculator-container");
+
+dragElement(resultOutline);
+
+function dragElement(element) {
+    var xDelta = 0, yDelta = 0, xStart = 0, yStart = 0;
+    element.onmousedown = dragMouseDown;
+
+    function dragMouseDown(e) {
+        if (e.target.closest(".window-button")) {
+            e.stopPropagation();
+            return;
+        }
+        e.preventDefault();
+        xStart = e.clientX;
+        yStart = e.clientY;
+        document.onmouseup = closeDragElement;
+        document.onmousemove = elementDrag;
+    }
+
+    function elementDrag(e) {
+        e.preventDefault();
+        // Calculate new cursor position.
+        xDelta = xStart - e.clientX;
+        yDelta = yStart - e.clientY;
+        xStart = e.clientX;
+        yStart = e.clientY;
+        // Set new element position.
+        calculatorContainer.style.top = (calculatorContainer.offsetTop - yDelta) + "px";
+        calculatorContainer.style.left = (calculatorContainer.offsetLeft - xDelta) + "px";
+    }
+
+    function closeDragElement() {
+        // Stop moving when mouse button released.
+        document.onmouseup = null;
+        document.onmousemove = null;
+    }
+}
